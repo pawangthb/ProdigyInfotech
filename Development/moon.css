@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/143/861/desktop-wallpaper-oc-isro-fan-here-s-a-indiaspeaks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AA h1{
+    font-size: 60px;
+    color: rgb(227, 250, 17);
+    text-align: center;
+
+}
+
+.BB h2{
+    font-size: 40px;
+    
+    margin-top:-35px; 
+
+    color: rgb(61, 169, 202);
+    text-align: center;
+}
+
+.CC button{
+    border: 2px;
+    align-items: center;
+    border-style: dashed;
+    font-size: 40px;
+    background-color: rgb(207, 54, 15);
+    border-radius: 0%;
+    border-color: rgb(25, 11, 158);
+    left: 40%;
+    top: 0%;
+    margin-left: 550px;
+    margin-bottom: 100px;
+    bottom: 60%;
+    
+    
+}
+.D img{
+    background-size: cover;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    bottom: 40px;
+    border-radius: 80%;
+    border-color: rgb(60, 14, 187);
+    border-style: double;
+    float:center; 
+    margin-right:35px; 
+    width:155px; 
+    height:195px; 
+}
+
+.CC button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    bottom: 20%;
+    height: 25%;
+    background: rgb(240, 127, 15);
+    z-index: -1;
+    transition: 2.5s;
+    overflow: hidden;
+
+}
+.CC button:hover::before{
+    width: 100%;
+}
+.CC button::after{
+    content: '';
+    position: absolute;
+    top: 60;
+    bottom: 20%;
+    right: 0;
+    width: 0%;
+    height: 25%;
+    background: rgb(51, 221, 28);
+    z-index: -1;
+    transition: 2.5s;
+    overflow: hidden;
+}
+.CC button:hover::after{
+    width: 100%;
+}
+.CC a img{
+    width: 100px;
+
+}
+/*.CC a{
+    position: relative;
+    bottom: 60px;
+    top: 100px;
+    width: 179px;
+    font-size: 50px;
+    padding: 20px;
+    right: 270px;
+    transition: transform 0.3s ease;
+}
+*/
